@@ -1,0 +1,4 @@
+def create_file_with_name():
+    name = input("What's your name? ")
+    with open(f"{name}.txt", "w") as file:
+        file.write(f"My name is {name}.")
